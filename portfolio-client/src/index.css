@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  background:#090909;
+  color:white;
+  font-family:'Poppins',sans-serif;
+}
+
+.heading{
+  font-family:'Bebas Neue',sans-serif;
+}
+@import "tailwindcss";
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+  width:8px;
+}
+
+::-webkit-scrollbar-track{
+  background:#090909;
+}
+
+::-webkit-scrollbar-thumb{
+  background:#2563eb;
+  border-radius:50px;
+}
+
+/* Selection */
+
+::selection{
+  background:#2563eb;
+  color:white;
+}
+
+/* Floating Animation */
+
+@keyframes floating{
+
+0%{
+transform:translateY(0px);
+}
+
+50%{
+transform:translateY(-15px);
+}
+
+100%{
+transform:translateY(0px);
+}
+
+}
+
+.float{
+
+animation:floating 4s ease-in-out infinite;
+
+}
+
+/* Glow */
+
+.glow{
+
+box-shadow:
+
+0 0 20px rgba(37,99,235,.3),
+
+0 0 60px rgba(37,99,235,.15);
+
+}
