@@ -16,7 +16,7 @@ function Hero() {
       {/* Background */}
       <HeroBackground />
 
-      <div className="relative z-10 mx-auto max-w-7xl w-full px-6 lg:px-10 py-24">
+      <div className="relative z-10 mx-auto max-w-7xl w-full px-6 lg:px-10 pt-20 pb-16">
 
         <div className="grid lg:grid-cols-2 gap-20 items-center">
 
@@ -30,7 +30,7 @@ function Hero() {
 
             <h1 className="heading leading-none">
 
-              <span className="block text-[85px] md:text-[130px] lg:text-[175px]">
+              <span className="block text-[85px] md:text-[130px] xl:text-[200px]">
                 FULL
               </span>
 

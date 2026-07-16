@@ -45,50 +45,43 @@ export const portfolio = {
   ],
 
   projects: [
-    {
-      id: 1,
-      title: "Freelancer Platform",
+  {
+    id: 1,
+    title: "Professional Portfolio",
 
-      tech: "React • Node • Express • MongoDB",
+    tech: "React • Node.js • Express • JSON",
 
-      description:
-        "Full Stack MERN platform with authentication, task management, invoice generation and payment tracking.",
+    description:
+      "A modern, responsive Full Stack Developer Portfolio built using React, Tailwind CSS, Express.js, and a JSON-based backend. It showcases projects, technical skills, education, and includes a functional contact form for message storage.",
 
-      github: "#",
+    github: "https://github.com/code1v/Professional-Portfolio.git",
+  },
 
-      live: "#",
-    },
+  {
+    id: 2,
+    title: "Freelancer Platform",
 
-    {
-      id: 2,
+    tech: "MERN Stack",
 
-      title: "MelodIQ Music Player",
+    description:
+      "A full-stack freelance management platform built with React, Node.js, Express.js, and MongoDB. It enables users to manage clients, tasks, payments, and generate invoices through a modern dashboard.",
 
-      tech: "HTML • CSS • JavaScript",
+    github: "https://github.com/code1v/Freelance-Platform.git",
+  },
 
-      description:
-        "Music player integrated with JioSaavn API featuring real-time search and audio streaming.",
+  {
+    id: 3,
+    title: "Napster Music Player",
 
-      github: "#",
+    tech: "HTML • CSS • JavaScript",
 
-      live: "#",
-    },
+    description:
+      "A responsive web-based music player that allows users to search, stream, and download music for free with an intuitive interface and an ad-free listening experience.",
 
-    {
-      id: 3,
+    github: "https://github.com/code1v/Napster-Music-Player.git",
+  },
+],
 
-      title: "Portfolio Website",
-
-      tech: "React • Express",
-
-      description:
-        "Modern developer portfolio with responsive UI, Express backend and contact form.",
-
-      github: "#",
-
-      live: "#",
-    },
-  ],
 
   experience: {
     company: "CodeAlpha",

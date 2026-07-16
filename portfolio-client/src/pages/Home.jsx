@@ -5,21 +5,23 @@ import Skills from "../components/skills/Skills";
 import About from "../components/about/About";
 import Contact from "../components/contact/Contact";
 import Footer from "../components/layout/Footer";
-
+import Experience from "../components/experience/Experience";
+import Education from "../components/education/Education";
 
 
 function Home() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Projects />
-      <Skills />
-      <About />
-      {/* <Experience /> */}
-      <Contact />
-      <Footer />
-    </>
+  <Navbar />
+  <Hero />
+  <Projects />
+  <Skills />
+  <About />
+  <Experience />
+  <Education />
+  <Contact />
+  <Footer />
+</>
   );
 }
 

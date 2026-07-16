@@ -42,12 +42,7 @@ function Navbar() {
 
         </ul>
 
-        {/* Resume Button */}
-
-        <button className="hidden md:block px-5 py-2 rounded-full bg-blue-600 hover:bg-blue-700 transition text-white">
-          Resume
-        </button>
-
+       
         {/* Mobile Icon */}
 
         <button

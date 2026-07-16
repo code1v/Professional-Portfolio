@@ -27,11 +27,7 @@ function HeroButtons() {
         LinkedIn
       </a>
 
-      <button
-        className="border border-white hover:bg-white hover:text-black transition px-8 py-4 rounded-full"
-      >
-        Download Resume
-      </button>
+      
 
     </div>
 
