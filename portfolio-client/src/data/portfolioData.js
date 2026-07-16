@@ -8,18 +8,18 @@ export const portfolio = {
     description:
       "Passionate about building scalable web applications using React, Node.js, Express.js and modern web technologies. I enjoy creating responsive, user-friendly interfaces and solving real-world problems through clean, efficient code.",
 
-    email: "vanshika.ch14@gmail.com",
+    email: "vanshika@gmail.com",
 
-    phone: "+91 8279552936",
+    phone: "+91 9876543210",
 
-    location: "Saharanpur, Uttar Pradesh",
+    location: "SRE  , India",
 
     github: "https://github.com/code1v",
 
     linkedin:
       "https://www.linkedin.com/in/vanshika-chaudhary-b875472a4/",
 
-    resume: "/resume.pdf",
+    
   },
 
   about: {
@@ -99,7 +99,7 @@ export const portfolio = {
       degree: "B.Tech Computer Engineering",
 
       institute:
-        "Maharishi Markandeshwar University",
+        "MMU, Mullana",
 
       year: "2023 - Present",
 
@@ -110,7 +110,7 @@ export const portfolio = {
       degree: "Class XII",
 
       institute:
-        "Saraswati Vihar Senior Secondary School",
+        "SVSS School",
 
       year: "2023",
 
